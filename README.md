@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-    💸 App web para registro de transações de entrada/saída com valor e categoria. 🕮
+    💰 App web para registro de transações de entrada/saída com valor e categoria. 📝
 </h3>
 
 <p align="center">
