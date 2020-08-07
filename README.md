@@ -112,6 +112,13 @@ $ cd server
 # Instale as dependências
 $ npm install
 
+# A aplicação utiliza banco de dados Postgres. Caso não tenha um ainda, recomendo criar um container postgres usando o Docker.
+# Com o Docker instalado e rodando, execute o comando abaixo para criar o container "gostack-postgres"
+docker run --name gostack-postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+
+# As demais configurações da conexão com o banco de dados estão no arquivo ormconfig.json dentro da pasta server
+# Você pode modificar o host (trocando pra "localhost", por exemplo), porta, nome do banco, etc.
+
 # Execute a aplicação em modo de desenvolvimento
 $ npm run dev:server
 
